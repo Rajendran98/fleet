@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TASK
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="header">
+            <span class="menus"  onclick="openNav()" >&#9776; </span>
+            <img class="logo" src="./image/trimble-inc-vector-logo.png">
+            <div class="header-right">
+               <a> <i class="fa fa-search"></i> </a>
+               <a> <i class="fa fa-bell"></i></a>
+               <a> <i class='far fa-calendar-alt'></i> </a>
+               <a> <i class='fas fa-user-alt'></i></a>
+ 
+            </div>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+          <!--  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>-->
+            <a> <i class="fa fa-search"></i> </a>
+            <a class="activate"> <i class='fas fa-car-side'></i> </a>
+            <a> <i class='far fa-sun'></i> </a>
+            <a> <i class='fas fa-code-branch'></i></a>   
+            
+            <a><i class='fas fa-chart-line'></i></a>
+            <a class="last"><i class='fas fa-sign-out-alt'></i></a>
+        </div>
+
+        <div class="main">
+           <div  class="rectangle">
+            <button class="btns"><i class='fas fa-angle-left'></i>&nbsp; Back</button>
+            <p>FLEET</p>
+
+            <form class="example">
+                <input type="text" class="fa"  placeholder=" &#xf002    SEARCH" name="search">
+                <button type="submit">Go</i></button>
+            </form>
+            <button class="btnt"> ADDITIONAL FILTERS &nbsp;<i class='fas fa-angle-down'></i></button>
+           </div>
+
+           <div class="link">
+            <button class="btnp"><i class='fas fa-industry'></i></button>
+         <!--   <p class="one"></p>-->
+            <button class="btnp1"><i class='fas fa-plus'></i></button>
+            <button class="btnp2"><i class="fa fa-trash"></i></button>
+            <button class="btnp3"><i class="fa fa-close"></i></button>
+            <button class="btnp4"><i class='far fa-save'></i></button>
+            <button class="btnp5"><i class='fas fa-funnel-dollar'></i></button>
+            <button class="btnp6"><i class='fas fa-clipboard-list'></i></button>
+            <button class="btnp7"><i class='fas fa-sort-amount-down-alt'></i></button>
+            <button class="btnp8"><i class='fas fa-heart'></i></button>
+            <button class="btnp9"><i class='fas fa-paper-plane'></i></button>
+            <button class="btnp10"><i class='fas fa-list-ul'></i></button>
+            <button class="btnp11"> (310) ALL ASSETS &nbsp;<i class='fas fa-angle-down'></i></button>
+            <button class="btnp12"><i class='fas fa-redo'></i></button>
+            <button class="btnp13"><i class='fas fa-list-ul'></i></button>
+            <button class="btnp14"><i class="fa fa-close"></i></button>
+           </div>
+         
+           <div class="map">
+             
+            
+
+              
+                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d971.920698581574!2d80.26224187154585!3d12.99212900685687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b6741f7f3be4b6!2sNEW%20MURUGAN%20STORE!5e0!3m2!1sen!2sin!4v1607940703179!5m2!1sen!2sin" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+               
+            </div>
+
+
+            <div class="lists">
+                <p>FLEET LIST</p>
+                <button class="btnp11"> (310) ALL ASSETS &nbsp;<i class='fas fa-angle-down'></i></button>
+                <button class="btnp12"><i class='fas fa-redo'></i></button>
+                <button class="btnp13"><i class='fas fa-list-ul'></i></button>
+                <button class="btnp14"><i class="fa fa-close"></i></button>
+            </div>
+
+
+            <div class="table-responsive tds">          
+                <table class="table">
+                  <thead>
+                    <tr>
+                        <th> <input type="checkbox"></th>
+                     <th><i class='fas fa-map-marker-alt'></i></th>
+                      <th>ASSET</th>
+                      <th>ID</th>
+                      <th>MODEL</th>
+                      <th>SERIAL NO.</th>
+                      <th>LATEST UTILIZATION<BR>REPORT</th>
+                      <th>RUNTIME TARGET<BR>(HOURS)</th>
+                      <th>RUNTIME<BR>(HOURS)</th>
+                      <th>RUNTIME FUEL<BR>(GAL)</th>
+                      <th>RUNTIME BURN RATE<BR>(GAL/HOURS)</th>
+                     
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <td> <input type="checkbox"></td>
+                     <td><i class='fas fa-map-marker-alt'></i></td>
+                      <td>1</td>
+                    <td> <a style=" text-decoration-line: underline;color: #DA291C;">Anna</a></td> 
+                      <td>Pitt</td>
+                      <td>35</td>
+                      <td>New York</td>
+                      <td>USA</td>
+                      <td>11.2</td>
+                      <td>41.2</td>
+                      <td>451.2   &nbsp; &nbsp; &nbsp; <i class='fas fa-angle-down'></i></td>
+                      
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox"></td>
+                        <td><i class='fas fa-map-marker-alt'></i></td>
+                        <td>1</td>
+                        <td> <a style=" text-decoration-line: underline;color: #DA291C;">MGR</a></td> 
+                        <td>Pitt</td>
+                        <td>35</td>
+                        <td>New York</td>
+                        <td>USA</td>
+                        <td>11.2</td>
+                        <td>41.2</td>
+                        <td>451.2   &nbsp; &nbsp; &nbsp; <i class='fas fa-angle-down'></i></td>
+                      </tr>
+                      <tr>
+                        <td> <input type="checkbox"></td>
+                        <td><i class='fas fa-map-marker-alt'></i></td>
+                         <td>1</td>
+                         <td> <a style=" text-decoration-line: underline;color: #DA291C;">AMMA</a></td> 
+                         <td>Pitt</td>
+                         <td>35</td>
+                         <td>New York</td>
+                         <td>USA</td>
+                         <td>11.2</td>
+                         <td>41.2</td>
+                         <td>451.2   &nbsp; &nbsp; &nbsp; <i class='fas fa-angle-down'></i></td>
+                      </tr>
+                  
+                  </tbody>
+                </table>
+                </div>
+        </div>
+
+
+        <!--  <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "50px";
+            }
+            </script>-->
+    </body>
+</html>
